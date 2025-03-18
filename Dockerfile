@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the Python script to the container
-COPY new_python_file.py .
+COPY firstpython.py .
 
 # Command to run the Python script
-CMD ["python", "new_python_file.py"]
+CMD ["python", "firstpython.py"]
